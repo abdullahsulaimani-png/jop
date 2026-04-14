@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>السلة</title>
+  <link rel="stylesheet" href="auth.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body onload="loadCart()">
+
+<header>
+  <img src="img/logo.png" class="logo">
+</header>
+
+<div class="container">
+
+  <h2>سلة المشتريات</h2>
+
+  <div id="cartItems"></div>
+
+  <h3>المجموع: <span id="total">0</span></h3>
+
+<button onclick="checkout()">إتمام الطلب</button>
+
+</div>
+
+<footer class="footer">
+  <div class="footer-left">
+    <h3>نجاة خليل</h3>
+    <p> 0545400356</p>
+  </div>
+
+  <div class="footer-right">
+    <a class="icon tiktok" href="#"><i class="fa-brands fa-tiktok"></i></a>
+    <a class="icon snapchat" href="#"><i class="fa-brands fa-snapchat"></i></a>
+    <a class="icon x" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

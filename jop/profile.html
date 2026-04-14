@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>الملف الشخصي</title>
+  <link rel="stylesheet" href="auth.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body onload="loadProfile()">
+
+<header>
+  <img src="img/logo.png" class="logo">
+</header>
+
+<div class="container">
+
+  <h2>👤 الملف الشخصي</h2>
+
+  <div class="profile-box">
+
+    <p>👤 اسم المستخدم:</p>
+    <h3 id="username"></h3>
+
+    <p>📦 عدد الطلبات:</p>
+    <h3 id="ordersCount">0</h3>
+
+    <p>💰 إجمالي المشتريات:</p>
+    <h3 id="totalSpent">0 ريال</h3>
+
+  </div>
+
+  <button onclick="logout()">تسجيل خروج</button>
+
+</div>
+<footer class="footer">
+  <div class="footer-left">
+    <h3>نجاة خليل</h3>
+    <p> 0545400356</p>
+  </div>
+
+  <div class="footer-right">
+    <a class="icon tiktok" href="#"><i class="fa-brands fa-tiktok"></i></a>
+    <a class="icon snapchat" href="#"><i class="fa-brands fa-snapchat"></i></a>
+    <a class="icon x" href="#"><i class="fa-brands fa-x-twitter"></i></a>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
